@@ -45,9 +45,9 @@ class Movie {
 
 	public function start() {
     if($this->currentAt == 0) {
-      return "Filme começou";
+      echo "Filme começou";
     } else {
-      return "Filme já começou";
+      echo "Filme já começou";
     }
 	}
 
@@ -57,9 +57,9 @@ class Movie {
 
 	public function stop() {
     if($this->currentAt == $this->duration) {
-      return "Filme parou";
+      echo "Filme parou";
     } else {
-      return "Filme está rodando";
+      echo "Filme está rodando";
     }
 	}
 

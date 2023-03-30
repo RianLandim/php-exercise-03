@@ -38,10 +38,10 @@
 
     public function buy($payedAt, $pricePayed) {
       if($pricePayed < $this->price || $this->price < $pricePayed) {
-        return "Valor incorreto";
+        echo "Valor incorreto";
       } else {
         $this->payedAt = $payedAt;
-        return "Compra realizada com sucesso :D";
+        echo "Compra realizada com sucesso :D";
       }
     }
   }

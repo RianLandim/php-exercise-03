@@ -18,7 +18,7 @@
       return $this->isStudent;
     }
 
-    public function setDocument() {
+    public function setDocument($document) {
       $this->$document = $document;
     }
 

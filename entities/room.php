@@ -24,7 +24,7 @@
 
     public function fill() {
       if($this->filed == $this->limit) {
-        return "Sala cheia";
+        echo "Sala cheia";
       } else {
         $this->filed + 1;
       }
