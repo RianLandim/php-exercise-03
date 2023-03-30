@@ -23,7 +23,7 @@
 		}
 
     public function fill() {
-      if($this->filed == $this->limit) {
+      if($this->filed >= $this->limit) {
         echo "Sala cheia";
       } else {
         $this->filed + 1;
